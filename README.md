@@ -70,9 +70,9 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - Also we can type JavaScript code inside console
   - Talk about `undefined` statement inside console (Also `new Date();`)
   - Use `clear()` to clean up your console (`Ctrl+L`)
-  - Talk about console object and show all types(`img1`)
+  - Talk about console object and show all types(`i1`)
   - Remind the `Emmet` toolkit
-  - Install `JavaScript ES6 Snippets` Extension and talk about it (`clg`, `tryc`) and all kind of console methods (`log`, `error`, `warning`, `table`) (`img6`)
+  - Install `JavaScript ES6 Snippets` Extension and talk about it (`clg`, `tryc`) and all kind of console methods (`log`, `error`, `warning`, `table`) (`i6`)
 
 - <span style="color: Red;">Comments and Shortcuts</span>
 
@@ -96,7 +96,7 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - Talk about the differences between `var` and `let`
   - Before ES6 we use `var` keyword to declare a variable. Now we use `let` keyword
   - Remember to terminate your codes in each line with `;` notation
-  - Default value for all variable in JavaScript is `undifined` (`img2`)
+  - Default value for all variable in JavaScript is `undifined` (`i2`)
   - Naming conventions for variables in JavaScript:
     - Never use `reserved keywords` (like let / check it)
     - They Should be `meaningful`
@@ -106,11 +106,11 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
     - JavaScript is `Case Sensitive` language
     - We can declare multiple variable in one line and separate them using `,` notation (`*`)
     - In modern best practice we declare each variable in different line
-    - Talk about different forms of naming and valid characters (`*`) (`img7-3`)
+    - Talk about different forms of naming and valid characters (`*`) (`i7-3`)
 
 - <span style="color: Red;">Constants</span>
 
-  - When we want to have a variable that its value never change through the execution of the code until we use `constant` keyword instead of `let` (`img3`)
+  - When we want to have a variable that its value never change through the execution of the code until we use `constant` keyword instead of `let` (`i3`)
   - Check the error in the console when you try to change a constant value
 
 - <span style="color: Red;">Primitive Types</span>
@@ -131,7 +131,7 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - JavaScript is a dynamic type language. It means you can change a variable type by assigning to new value
   - ![](assets/5.png)
   - Test it in the console using `typeof` statement
-  - `undefined` is actually a type also a value(`img5`)
+  - `undefined` is actually a type also a value(`i5`)
 
 <span style="color: Red;">Reference Types</span>
 
@@ -142,32 +142,127 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - Notice all reference type are a kind of object (except for function - look at the documents)
 - Object in JavaScript and Object in real life is completely the same
 - We can put our related primitive types inside an object to reference them later
-- Keys inside an object are properties of that object (`img8`)
-- We can change the value of properties inside an object in two different ways (`img9`)
+- Keys inside an object are properties of that object (`i8`)
+- We can change the value of properties inside an object in two different ways (`i9`)
   - Using `Dot notation` (Is better way)
   - Using `Bracket notation`
-- We can use bracket notation through the runtime and give the control it to user (`img10`)
+- We can use bracket notation through the runtime and give the control it to user (`i10`)
 
 <span style="color: Red;">Array</span>
 
 - When we want to save a list of objects or together like user selected colors, we use a data structure named `arrays`
 - `[]` is array literal and we use it to collect items
 - We use `indexes` to access items in an array and it starts from `0`
-- Also we can add an item to an array using index system and length of array is dynamic (`img11`)
+- Also we can add an item to an array using index system and length of array is dynamic (`i11`)
 - The type of object in array is dynamic and we can assign different type of items in an array
-- Arrays are a kind of object and it has lots of properties and methods (typof in console) (`img12`)
+- Arrays are a kind of object and it has lots of properties and methods (typof in console) (`i12`)
 - Talk about `length` property
-- When we declare a constant array or object we can change the properties of them by using `push()` method or dot notation (`img12-1`)
+- When we declare a constant array or object we can change the properties of them by using `push()` method or dot notation (`i12-1`)
 
 <span style="color: Red;">Function</span>
 
 - Functions are one of the fundamental building blocks in JS
 - A function is a set of statement that perform a task or calculate a value
-- Talk about how to declare a function and its structure (`img13`)
+- Talk about how to declare a function and its structure (`i13`)
 - A function can have inputs that change its behavior
 - A variable that we use in a function parentheses during the definition a function is called `parameter` and it has meaning only inside the function (`img14`)
 - Actual value that we give to a function is a `argument`
 - We can reuse a function number of times
-- Expand greet function with two variables (`igm15`) and talk about undefined arguments
-- Write two types of functions and initialize a variable using `return` value of calculation function (`img16,17`)
+- Expand greet function with two variables (`i15`) and talk about undefined arguments
+- Write two types of functions and initialize a variable using `return` value of calculation function (`i16,17`)
 - We can pass a variable or a expression (like another function) to a function
+
+<span style="color: Red;">Where they are saved?</span>
+
+- ![](assets/6.png)
+- (`i17-2`)
+- ![](assets/7.png)
+
+<span style="color: Red;">Type Conversion (Type Casting)</span>
+
+- We can change a variable type to another by using these functions and methods: (`i18`)
+  - `parseInt()` or `Number` to convert a string variable to an integer variable (`+`sign = unary)
+  - `toString()`(its a method) or `String()` to convert an integer variable to a string variable
+  - `parseFloat()` to convert a string variable to a floating point number variable variable (compare to parseInt())
+  - `Boolean()` to convert a number variable to a boolean variable variable
+- Check when you try to convert a character to integer (`i19`)
+- Talk about `NaN` (Not a Number)
+
+<span style="color: Red;">Operators</span>
+
+- We use operators along with variables and constants to create expressions and with these expressions we can create logics and algorithms
+- ![](assets/8.png)
+- We have different type of operators:
+  - <span style="color: #00ff00;">Arithmetic</span> Operators
+  - <span style="color: #00ff00;">Assignment</span> Operators
+  - <span style="color: #00ff00;">Comparison</span> Operators
+  - <span style="color: #00ff00;">Logical</span> Operators
+  - <span style="color: #00ff00;">Bitwise</span> Operators
+
+<span style="color: Red;">Arithmetic Operators</span>
+
+- We can use these mathematic operators in JS: (`i20`)
+- `operand operator operand`
+  - `+` for addition
+  - `-` for subtraction
+  - `*` for multiplication
+  - `/` for division
+  - `%` for remain of division
+  - `**` for Exponent
+  - `++` for increment (Position of operators before of after the operand is important)
+  - `--` for decrement (Position of operators before of after the operand is important)
+
+<span style="color: Red;">Assignment Operators</span>
+
+- We use `=` operator for assigning a value to a variable
+- Talk about `increment` and assignment operator
+- Talk about augmented assignment (`x += 5`)
+- Other augmented assignment like `*=` `/=`, ...
+
+<span style="color: Red;">Comparison Operators</span>
+
+- We use comparison operator to compare value of a variable to something else or two things (`i21`)
+- Comparison operators like:
+  - `>` Greater than
+  - `>=` Greater than or equal
+  - `<` less than
+  - `<=` less than or equal
+  - `===` is equal
+  - `!==` is not equal
+- Result an expression that contain a comparison operator is boolean
+
+<span style="color: Red;">Equality Operators</span>
+
+- We have two kinds of equality operators (`i22`)
+  - Strict Equality `===` (same type + same value)
+  - Lose Equality `==` (same value)
+
+<span style="color: Red;">Type Coercion</span>
+
+- JavaScript convert type of a value automatically in arithmetic operation between two different operand type (`i22-2`)
+
+<span style="color: Red;">Ternary Operators (Conditional)</span>
+
+- We can define a variable with conditional value using ternary operator (`i23`)
+- Structure: `variable = condition ? value1 : value2`
+
+<span style="color: Red;">Logical Operators</span>
+
+- We have three types of logical operators in JavaScript:
+  - `AND` which is indicated by `&&`: It returns `true` if both operands is true (`i24`)
+  - Talk about real world use case of logical operators (`i25`)
+  - `OR` which is indicated by `||`: It returns `true` if on of operands is true (`i26`)
+  - `NOT` which is indicated by `!`: It returns `true` it reverse the value of a logical operand (`i27`)
+
+<span style="color: Red;">Logical Operators with Non-booleans</span>
+
+- The result of a logical expression is not necessarily true ore false
+- There are all `falsy` values in JavaScript: (`i28`)
+  - `undefined`
+  - `null`
+  - `0`
+  - `false`
+  - `''`
+  - `NaN`
+- Anything that is not falsy is `Truthy`
+- Talk about Short-circuit and real example of it (`i29`)
