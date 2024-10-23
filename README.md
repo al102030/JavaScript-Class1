@@ -227,19 +227,23 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - `>=` Greater than or equal
   - `<` less than
   - `<=` less than or equal
+  - All above operators are `Relational` operators
   - `===` is equal
   - `!==` is not equal
+  - All above operators are `Equality` operators
 - Result an expression that contain a comparison operator is boolean
 
 <span style="color: Red;">Equality Operators</span>
 
 - We have two kinds of equality operators (`i22`)
-  - Strict Equality `===` (same type + same value)
-  - Lose Equality `==` (same value)
+  - <span style="color: #00ff00;">Strict Equality</span> `===` (same type + same value)
+  - <span style="color: #00ff00;">Lose Equality</span> `==` (same value)
+  - In most of the time try to use strict equality, because it's more precise and accurate
 
 <span style="color: Red;">Type Coercion</span>
 
 - JavaScript convert type of a value automatically in arithmetic operation between two different operand type (`i22-2`)
+- JavaScript return different type in the case of `+` and `*` based on type coercion
 
 <span style="color: Red;">Ternary Operators (Conditional)</span>
 
@@ -256,7 +260,8 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 
 <span style="color: Red;">Logical Operators with Non-booleans</span>
 
-- The result of a logical expression is not necessarily true ore false
+- We can use logical operators for `Non-logical` values
+- `The result of a logical expression is not necessarily true ore false`
 - There are all `falsy` values in JavaScript: (`i28`)
   - `undefined`
   - `null`
@@ -266,3 +271,21 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - `NaN`
 - Anything that is not falsy is `Truthy`
 - Talk about Short-circuit and real example of it (`i29`)
+
+<span style="color: Red;">Bitwise Operators</span>
+
+- It's far beyond the course but we try to cover it
+- Talk about binary numbers (`8 bytes`)
+- Bitwise `or` indicate by `|` (`i30`)
+- Bitwise `and` indicate by `&`
+- Talk about real world example related to bitwise operators (`i31`)
+
+<span style="color: Red;">Operators Precedence</span>
+
+- Evaluation of a expression that have operators may have different result based on the order of operators (`i32`)
+- ![](assets/9.png)
+- Parentheses have highest precedence
+
+<span style="color: Red;">Exercise</span>
+
+- Write a piece of code that swap values of two variable (`i33, 34`)
