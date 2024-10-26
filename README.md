@@ -86,6 +86,8 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - By holding `shift+ctrl` and highlight a word we can edit all instance of that
   - We can hold `alt` and click different places and make change there altogether
 
+### <span style="color: #44cecc;">Types</span>
+
 - <span style="color: Red;">Variables</span>
 
   - To save data in memory and recall it for further uses we use variables
@@ -188,6 +190,8 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - Check when you try to convert a character to integer (`i19`)
 - Talk about `NaN` (Not a Number)
 
+### <span style="color: #44cecc;">Operators</span>
+
 <span style="color: Red;">Operators</span>
 
 - We use operators along with variables and constants to create expressions and with these expressions we can create logics and algorithms
@@ -289,3 +293,42 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 <span style="color: Red;">Exercise</span>
 
 - Write a piece of code that swap values of two variable (`i33, 34`)
+
+### <span style="color: #44cecc;">Control Flow</span>
+
+<span style="color: Red;">If... Else</span>
+
+- In JavaScript we have two kinds of conditions
+  - `if...else`
+  - `switch...case`
+- By using if condition we can check a statement and have different kind of reactions
+- The `if` structure is: `if (condition) {statement}` ('i35')
+- The `if...else` structure: `if (condition) {statement1} esle if (another_condition) {statement2}`
+- Work on a real world example (`i36`)
+
+<span style="color: Red;">Switch...Case</span>
+
+- We use variables instead of conditions in using `switch...case`
+- The `switch...case` structure is: `switch(variable){case value1: statement; break; case value2: statement; break; ...}` (`i37`)
+- There is no limitation for using `cases`
+- We can use `default` statement optionally when none of cases are true
+- We can compare variables by using `switch...case` statement but in the case of booleans it's better to use `if` statement
+- Using of switch...case become deprecated in new programming style
+
+<span style="color: Red;">Loop</span>
+
+- We use loops to repeat an action for number of times
+- Talk about poor way of logging something five times
+- We have five kind of loops in js
+  - `For` loop
+  - `While` loop
+  - `Do...While` loop
+  - `For...in` loop
+  - `For...of` loop
+
+<span style="color: Red;">For Loop</span>
+
+- Structure: `for (initialExpression; condition; incrementExpression) {Statement}`
+- `i` in for loop is `loop variable`
+- Talk about the working cycle on a real example (`i38-39-40`)
+- Talk about for loop indexing and different conditions
