@@ -332,3 +332,51 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - `i` in for loop is `loop variable`
 - Talk about the working cycle on a real example (`i38-39-40`)
 - Talk about for loop indexing and different conditions
+
+<span style="color: Red;">While Loop</span>
+
+- In for loop, loop variable is the part of the loop but in while loop we have to declare it externally
+- Loop variable works only in the loop scope but while loop variable is out of the scope
+- Structure: `While (condition) {Statement; increment statement}` (`i41`)
+- Talk about the working cycle on a real example
+
+<span style="color: Red;">Do...While Loop</span>
+
+- `do..while` loops are always executed at least once even th condition evaluate to false
+- Structure: `do {Statement; increment statement}  while(condition) ` (`i42`)
+- Show differences between while and do...while loop by an example
+- In modern programming using do...while loop is not common and it's not practical
+
+<span style="color: Red;">Infinite Loop</span>
+
+- Infinite loops can continue infinitely and cause crash for your browser or computer
+- Explain it through a while loop without increment statement (`i43`)
+
+<span style="color: Red;">For...in Loop</span>
+
+- We use for...in loop on a iterable object like array or properties of an object
+- Structure: `for (variable in object) {statement}` (`i44`)
+- Talk about it through an real example of array and object
+- We don't use this loop for array typically (`i45`)
+
+<span style="color: Red;">For...of Loop</span>
+
+- It is completely new in JS (After EcmaScript6)
+- It doesn't need to handel indexes and the loop is over the items
+
+<span style="color: Red;">Break and Continue</span>
+
+- If in some case we need to jump out of the loop quickly we use `break` statement
+- If in some case we need to jump at beginning of the loop quickly we use `continue` statement
+- continue is a king of legacy from old fashion programming in it's not common
+
+<span style="color: Red;">Exercise</span>
+
+- `Number 1`: Write a function that takes two numbers and returns the maximum of the two (`i48-49`)
+- `Number 2`: Write a function that takes width and height of a picture and define the frame of it (landscape or portrait) (`i50-51`)
+- `Number 3`: Write a `fizzBuzz` function (`i52-53`)
+- `Number 4`: Write a function that check a car speed and return ok if it's under a specific value (`i54-56`)
+- `Number 5`: Write a function that returns all numbers till a specific number with its `Odd/Even` label (`i57-58`)
+- `Number 6`: Write a function that returns number of all truthy elements inside a array (`i59-60`)
+- `Number 6`: Write a function that returns all string properties inside a object (`i61-62`)
+- `Number 6`: Write a function that returns the sum of all divisible numbers by 3 and 5 from 0 to a limit number (`i63-64`)
