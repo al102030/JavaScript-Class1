@@ -383,3 +383,12 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - `Number 9`: Write a function that returns the average of all scores of a student in the form of label (`i65-67`)
 - `Number 10`: Write a function that gets a number and returns a triangle of stars with height of that number (`i68-69`)
 - `Number 11`: Write a function that returns all prime numbers up to a limit (`70-72`)
+
+### <span style="color: #44cecc;">Objects</span>
+
+<span style="color: Red;">Basics</span>
+
+- Why we define objects (Highly related properties)(`i73`)
+- A property of an object can be another object
+- A compose of properties and functions inside an object is the refer to OOP (Object Oriented Programming)(`i74`)
+- We call a function of an object, `method`
