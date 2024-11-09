@@ -392,3 +392,46 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - A property of an object can be another object
 - A compose of properties and functions inside an object is the refer to OOP (Object Oriented Programming)(`i74`)
 - We call a function of an object, `method`
+
+<span style="color: Red;">Factory Functions</span>
+
+- To avoid duplication and nemours bug fixing we use factory functions (`i75-78`)
+
+<span style="color: Red;">Constructor Functions</span>
+
+- Naming convention for defining a constructor function is different (`i79`)
+- We use `Pascal` notation instead of `Camel case` notation
+- We use <span style="color: #09f;">this</span> statement to initialize an object instead of returning it
+- In JS objects are dynamic
+- We use `new` statement to define a new object in this method
+- By using new three actions are happen
+  - Creating and empty object
+  - Pointing methods and properties to the empty object
+  - Return new object
+- To recap,Talk about the differences between two methods
+- The second method is old fashion (C++, Java)
+
+<span style="color: Red;">Dynamic Nature of Objects</span>
+
+- We can always add or remove a property or method from objects anytime (`i80`)
+- We cannot reassign an object (`=`) because of `const` statement
+
+<span style="color: Red;">Constructor Property</span>
+
+a- Every object in JavaScript has property called `constructor` (`i81-83`)
+
+- This property references to the function that create that object
+- Talk about other kinds of objects like strings in js
+
+<span style="color: Red;">Functions are Objects</span>
+
+- Actually functions in JS is a kind of object and by using dot notation we can see all methods and properties which related to a function (`i84-85`)
+- We can use `call` and `apply` methods on our function to pass the variables
+- If we never use `new` statement for definition of an object it refers to global constructor object which is `window`
+
+<span style="color: Red;">Value vs Reference Types</span>
+
+- Actually in JavScript we have two types of values: Primitive and Objects (`i86-92`)
+- Variables store independently in JS but objects store in another place (reference)
+- Local variables are the best example of separation of the stor location related to two different variables
+- Remember that primitives are copied by their values but Objects are copied by their reference
