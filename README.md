@@ -435,3 +435,55 @@ a- Every object in JavaScript has property called `constructor` (`i81-83`)
 - Variables store independently in JS but objects store in another place (reference)
 - Local variables are the best example of separation of the stor location related to two different variables
 - Remember that primitives are copied by their values but Objects are copied by their reference
+
+<span style="color: Red;">Enumerating Properties of an Object</span>
+
+- Typically we use `for...in` loop to iterate over an Object properties (`i93-94`)
+- An object is not iterable and you cannot use `for...of` loop over it. It works only with arrays and maps
+- By using `keys()` and `entries()` methods we can use for...of loop over an object
+- Talk about their functionality and performance
+- We can use `in` operator to check the existence of a property in an object
+
+<span style="color: Red;">Cloning an Object</span>
+
+- By using a simple for loop we can assign all properties of an object to another (`i95-96`)
+- Also by using `assign()` method we can do the same thing like above
+- `Spread` operator (`{...}`) is the third way of assigning an object to another
+
+<span style="color: Red;">Garbage Collection</span>
+
+- We don't need to allocate and de-allocate memory to an object in JavaScript (Like C++ and Java)
+- JavaScript engin has something called `Garbage Collector` which is doing that for use
+
+<span style="color: Red;">Math</span>
+
+- Search JavaScript Math module in Google
+- Talk about the document and use some Math module methods (round, max, min,...)
+
+<span style="color: Red;">String</span>
+
+- We have two types of string in JS: `String Primitive` , `String Object`
+- Any time when we use dot notation for an string JS engin wraps that to an object string automatically
+- Search for JavaScript strings in Google (`i97-100`)
+- Talk about scape characters
+
+<span style="color: Red;">Template Literals</span>
+
+- It's better to use template literal to present strings in JS (`i101-103`)
+- Talk a out other Literals
+- Another benefit of using template literal is ability of using `placeholders`
+
+<span style="color: Red;">Date</span>
+
+- We can use Date Object in JS in 6 different ways (`i104`)
+- Using this object without any argument returns current date time
+- To find all possible formats for string value in Date object it's better to read documentation (JavaScript date in Google)
+- Use `toDateString()` method to convert date to string
+
+<span style="color: Red;">Exercise</span>
+
+- `Number 1`: Create an address object with three properties and a function which returns all properties and their values of this object(`i105`)
+- `Number 2`: Create address object using factory function and constructor function(`i106-107`)
+- `Number 3`: Write two functions that check equality and resemblance of two different object(`i108-110`)
+- `Number 4`: Write a Blog post object(`i111-112`)
+- `Number 5`: Write a constructor function for our Blog post object(`i113`)
