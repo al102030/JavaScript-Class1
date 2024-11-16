@@ -487,3 +487,32 @@ a- Every object in JavaScript has property called `constructor` (`i81-83`)
 - `Number 3`: Write two functions that check equality and resemblance of two different object(`i108-110`)
 - `Number 4`: Write a Blog post object(`i111-112`)
 - `Number 5`: Write a constructor function for our Blog post object(`i113`)
+
+### <span style="color: #44cecc;">Arrays</span>
+
+<span style="color: Red;">Introduction</span>
+
+- In this part of the course we try to learn how to do different operations over arrays like adding, finding, removing, splitting, and combining
+
+<span style="color: Red;">Adding Elements</span>
+
+- We cannot reassign an constant array to a new value (`i114-115`)
+- By using `.push()` method we can add a value or a list of values to the `end` of an array
+- By using `.unshift()` method we can add a value or a list of values to the `beginning` of an array
+- By using `.splice()` method we can add a value or a list of values to the `middle` of an array
+
+<span style="color: Red;">Finding Elements (Primitives)</span>
+
+- By using `.indexOf()` method we can Find a value in our array
+- If that element doesn't exist it returns `-1`
+- Also by using `.lastIndexOf()` method we can Find the last repetition of a value in our array
+- Instead of all checking index of an elements we can use `.include()` method
+- Talk about the condition for if statement
+- Second parameter in all methods we talk about is the first index that we want to our search begin
+
+<span style="color: Red;">Finding Elements (Reference Types)</span>
+
+- `.include()` doesn't work on reference types (because of two different references) (`i118-119`)
+- We can `.find()` method. Search for it in Google
+- This method returns an Item or `undefined` (if it doesn't find anything)
+- Also We can `.findIndex()` method. This method returns index of item or `-1`
