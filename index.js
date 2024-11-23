@@ -1,5 +1,4 @@
 //===========================================
-
 /*
 Hi
 Ali Darvishi*/
@@ -83,18 +82,6 @@ for (let i = 1; i <= 10; i++){
 
 //===========================================
 
-let count = 1;
-
-while(count <=10) {
-    console.log(`Count: ${count}`);
-    count++;
-    if (count === 8) {
-        break;
-    }
-}
-
-//===========================================
-
 const person = {
     firstName: 'Ali',
     lastName: 'Darvishi',
@@ -106,8 +93,6 @@ const person = {
 
 person.isStudent = false;
 
-console.log(person.greet());
-
 //===========================================
 
 if ('age' in person) {
@@ -115,16 +100,6 @@ if ('age' in person) {
 } else {
     console.log('Not Founded!')
 }
-
-//===========================================
-
-function describePerson(obj) {
-    for (let key in obj) {
-        console.log(key, obj[key]);
-    }
-}
-
-describePerson(person)
 
 //===========================================
 
@@ -163,14 +138,11 @@ let numbers = [1,2,3,4]
 
 numbers.push(5);
 numbers.unshift(0);
-numbers.splice(2,0,10);
-
-console.log(numbers);
-
-console.log(numbers.includes(12));
+numbers.splice(3,0,10);
 
 console.log(numbers.indexOf(4));
 
+//===========================================
 
 
 

@@ -514,5 +514,57 @@ a- Every object in JavaScript has property called `constructor` (`i81-83`)
 
 - `.include()` doesn't work on reference types (because of two different references) (`i118-119`)
 - We can `.find()` method. Search for it in Google
+- We use a predicate (Callback) function to pass reference type object to and perform a operation on its elements
 - This method returns an Item or `undefined` (if it doesn't find anything)
 - Also We can `.findIndex()` method. This method returns index of item or `-1`
+
+<span style="color: Red;">Arrow Functions</span>
+
+- If you want to pass a function as callback function or argument to a method you can use different syntax (`i120`)
+- You can remove parenthesis and return statement and make your function simpler
+
+<span style="color: Red;">Removing Elements</span>
+
+- By using `.pop()` method we can remove a value or a list of values from the `end` of an array (`i121`)
+- By using `.shift()` method we can remove a value or a list of values from the `beginning` of an array
+- By using `.splice()` method we can remove a value or a list of values from the `middle` of an array
+
+<span style="color: Red;">Empty an Array</span>
+
+- Solution1: By assigning an array to `[]` we can make it empty (`i122-125`)
+- Solution2: Also by setting an array's length to 0 we can make it empty and garbage collecting issue is going to be solved
+- Solution3: By using `.splice()` method we can make an array empty
+- Solution4: (Not recommended) Using a while loop and `.pop()` method
+- Two first Solution is my preferences
+
+<span style="color: Red;">Combining and Slicing Arrays</span>
+
+- We can use concatenate (`.concat()`) method to combine two different array (`i126`)
+- In the opposite we can slice an array to sub arrays using `.slice()` method (`i127-129`)
+- Using `.splice()` method without argument return a copy of original array
+- Remember primitive and reference types behavior about saving in the memory
+
+<span style="color: Red;">The Spread Operator</span>
+
+- The spread operator can combine items of two different array into a combine array (`i130-131`)
+- We can add new items to combine array during spreading operation
+
+<span style="color: Red;">Iterating an Array</span>
+
+- By using `for...of` statement we can iterate over an array (`i132-134`)
+- Also by using `forEach()` method and passing a function we can do the same thing
+- Make sample your callback function in arrow function format
+- This call back function can return index of each item
+
+<span style="color: Red;">Joining Arrays</span>
+
+- By using `.join()` method we can stick all elements on an array together (`i135-136`)
+- Talk about `.split()` method and using it on a string with `.join()` method
+- URLs are a good example for using this method in real world problems
+
+<span style="color: Red;">Sorting Arrays</span>
+
+- By using `.sort()` method we can sort an array (`i137-`)
+- By using `.reverse()` method we can sort an array in reverse order
+- To sort an array of objects we need to pass an optional parameter (a special `function`) to this method
+- Talk about the differences between lower and upper case characters and ascii table (Google it)
