@@ -135,60 +135,60 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - Test it in the console using `typeof` statement
   - `undefined` is actually a type also a value(`i5`)
 
-<span style="color: Red;">Reference Types</span>
+- <span style="color: Red;">Reference Types</span>
 
-- In the case of Reference types, we have three different Reference type in JavaScript :
-- <span style="color: #ffff00;">Object</span>
-- <span style="color: #ffff00;">Array</span>
-- <span style="color: #ffff00;">Function</span>
-- Notice all reference type are a kind of object (except for function - look at the documents)
-- Object in JavaScript and Object in real life is completely the same
-- We can put our related primitive types inside an object to reference them later
-- Keys inside an object are properties of that object (`i8`)
-- We can change the value of properties inside an object in two different ways (`i9`)
-  - Using `Dot notation` (Is better way)
-  - Using `Bracket notation`
-- We can use bracket notation through the runtime and give the control it to user (`i10`)
+  - In the case of Reference types, we have three different Reference type in JavaScript :
+  - <span style="color: #ffff00;">Object</span>
+  - <span style="color: #ffff00;">Array</span>
+  - <span style="color: #ffff00;">Function</span>
+  - Notice all reference type are a kind of object (except for function - look at the documents)
+  - Object in JavaScript and Object in real life is completely the same
+  - We can put our related primitive types inside an object to reference them later
+  - Keys inside an object are properties of that object (`i8`)
+  - We can change the value of properties inside an object in two different ways (`i9`)
+    - Using `Dot notation` (Is better way)
+    - Using `Bracket notation`
+  - We can use bracket notation through the runtime and give the control it to user (`i10`)
 
-<span style="color: Red;">Array</span>
+- <span style="color: Red;">Array</span>
 
-- When we want to save a list of objects or together like user selected colors, we use a data structure named `arrays`
-- `[]` is array literal and we use it to collect items
-- We use `indexes` to access items in an array and it starts from `0`
-- Also we can add an item to an array using index system and length of array is dynamic (`i11`)
-- The type of object in array is dynamic and we can assign different type of items in an array
-- Arrays are a kind of object and it has lots of properties and methods (typof in console) (`i12`)
-- Talk about `length` property
-- When we declare a constant array or object we can change the properties of them by using `push()` method or dot notation (`i12-1`)
+  - When we want to save a list of objects or together like user selected colors, we use a data structure named `arrays`
+  - `[]` is array literal and we use it to collect items
+  - We use `indexes` to access items in an array and it starts from `0`
+  - Also we can add an item to an array using index system and length of array is dynamic (`i11`)
+  - The type of object in array is dynamic and we can assign different type of items in an array
+  - Arrays are a kind of object and it has lots of properties and methods (typof in console) (`i12`)
+  - Talk about `length` property
+  - When we declare a constant array or object we can change the properties of them by using `push()` method or dot notation (`i12-1`)
 
-<span style="color: Red;">Function</span>
+- <span style="color: Red;">Function</span>
 
-- Functions are one of the fundamental building blocks in JS
-- A function is a set of statement that perform a task or calculate a value
-- Talk about how to declare a function and its structure (`i13`)
-- A function can have inputs that change its behavior
-- A variable that we use in a function parentheses during the definition a function is called `parameter` and it has meaning only inside the function (`img14`)
-- Actual value that we give to a function is a `argument`
-- We can reuse a function number of times
-- Expand greet function with two variables (`i15`) and talk about undefined arguments
-- Write two types of functions and initialize a variable using `return` value of calculation function (`i16,17`)
-- We can pass a variable or a expression (like another function) to a function
+  - Functions are one of the fundamental building blocks in JS
+  - A function is a set of statement that perform a task or calculate a value
+  - Talk about how to declare a function and its structure (`i13`)
+  - A function can have inputs that change its behavior
+  - A variable that we use in a function parentheses during the definition a function is called `parameter` and it has meaning only inside the function (`img14`)
+  - Actual value that we give to a function is a `argument`
+  - We can reuse a function number of times
+  - Expand greet function with two variables (`i15`) and talk about undefined arguments
+  - Write two types of functions and initialize a variable using `return` value of calculation function (`i16,17`)
+  - We can pass a variable or a expression (like another function) to a function
 
-<span style="color: Red;">Where they are saved?</span>
+- <span style="color: Red;">Where they are saved?</span>
 
-- ![](assets/6.png)
-- (`i17-2`)
-- ![](assets/7.png)
+  - ![](assets/6.png)
+  - (`i17-2`)
+  - ![](assets/7.png)
 
-<span style="color: Red;">Type Conversion (Type Casting)</span>
+- <span style="color: Red;">Type Conversion (Type Casting)</span>
 
-- We can change a variable type to another by using these functions and methods: (`i18`)
+  - We can change a variable type to another by using these functions and methods: (`i18`)
   - `parseInt()` or `Number` to convert a string variable to an integer variable (`+`sign = unary)
   - `toString()`(its a method) or `String()` to convert an integer variable to a string variable
   - `parseFloat()` to convert a string variable to a floating point number variable variable (compare to parseInt())
   - `Boolean()` to convert a number variable to a boolean variable variable
-- Check when you try to convert a character to integer (`i19`)
-- Talk about `NaN` (Not a Number)
+  - Check when you try to convert a character to integer (`i19`)
+  - Talk about `NaN` (Not a Number)
 
 ### <span style="color: #44cecc;">Operators</span>
 
@@ -197,374 +197,414 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 - We use operators along with variables and constants to create expressions and with these expressions we can create logics and algorithms
 - ![](assets/8.png)
 - We have different type of operators:
+
   - <span style="color: #00ff00;">Arithmetic</span> Operators
   - <span style="color: #00ff00;">Assignment</span> Operators
   - <span style="color: #00ff00;">Comparison</span> Operators
   - <span style="color: #00ff00;">Logical</span> Operators
   - <span style="color: #00ff00;">Bitwise</span> Operators
 
-<span style="color: Red;">Arithmetic Operators</span>
+- <span style="color: Red;">Arithmetic Operators</span>
 
-- We can use these mathematic operators in JS: (`i20`)
-- `operand operator operand`
-  - `+` for addition
-  - `-` for subtraction
-  - `*` for multiplication
-  - `/` for division
-  - `%` for remain of division
-  - `**` for Exponent
-  - `++` for increment (Position of operators before of after the operand is important)
-  - `--` for decrement (Position of operators before of after the operand is important)
+  - We can use these mathematic operators in JS: (`i20`)
+  - `operand operator operand`
+    - `+` for addition
+    - `-` for subtraction
+    - `*` for multiplication
+    - `/` for division
+    - `%` for remain of division
+    - `**` for Exponent
+    - `++` for increment (Position of operators before of after the operand is important)
+    - `--` for decrement (Position of operators before of after the operand is important)
 
-<span style="color: Red;">Assignment Operators</span>
+- <span style="color: Red;">Assignment Operators</span>
 
-- We use `=` operator for assigning a value to a variable
-- Talk about `increment` and assignment operator
-- Talk about augmented assignment (`x += 5`)
-- Other augmented assignment like `*=` `/=`, ...
+  - We use `=` operator for assigning a value to a variable
+  - Talk about `increment` and assignment operator
+  - Talk about augmented assignment (`x += 5`)
+  - Other augmented assignment like `*=` `/=`, ...
 
-<span style="color: Red;">Comparison Operators</span>
+- <span style="color: Red;">Comparison Operators</span>
 
-- We use comparison operator to compare value of a variable to something else or two things (`i21`)
-- Comparison operators like:
-  - `>` Greater than
-  - `>=` Greater than or equal
-  - `<` less than
-  - `<=` less than or equal
-  - All above operators are `Relational` operators
-  - `===` is equal
-  - `!==` is not equal
-  - All above operators are `Equality` operators
-- Result an expression that contain a comparison operator is boolean
+  - We use comparison operator to compare value of a variable to something else or two things (`i21`)
+  - Comparison operators like:
+    - `>` Greater than
+    - `>=` Greater than or equal
+    - `<` less than
+    - `<=` less than or equal
+    - All above operators are `Relational` operators
+    - `===` is equal
+    - `!==` is not equal
+    - All above operators are `Equality` operators
+  - Result an expression that contain a comparison operator is boolean
 
-<span style="color: Red;">Equality Operators</span>
+- <span style="color: Red;">Equality Operators</span>
 
-- We have two kinds of equality operators (`i22`)
-  - <span style="color: #00ff00;">Strict Equality</span> `===` (same type + same value)
-  - <span style="color: #00ff00;">Lose Equality</span> `==` (same value)
-  - In most of the time try to use strict equality, because it's more precise and accurate
+  - We have two kinds of equality operators (`i22`)
+    - <span style="color: #00ff00;">Strict Equality</span> `===` (same type + same value)
+    - <span style="color: #00ff00;">Lose Equality</span> `==` (same value)
+    - In most of the time try to use strict equality, because it's more precise and accurate
 
-<span style="color: Red;">Type Coercion</span>
+- <span style="color: Red;">Type Coercion</span>
 
-- JavaScript convert type of a value automatically in arithmetic operation between two different operand type (`i22-2`)
-- JavaScript return different type in the case of `+` and `*` based on type coercion
+  - JavaScript convert type of a value automatically in arithmetic operation between two different operand type (`i22-2`)
+  - JavaScript return different type in the case of `+` and `*` based on type coercion
 
-<span style="color: Red;">Ternary Operators (Conditional)</span>
+- <span style="color: Red;">Ternary Operators (Conditional)</span>
 
-- We can define a variable with conditional value using ternary operator (`i23`)
-- Structure: `variable = condition ? value1 : value2`
+  - We can define a variable with conditional value using ternary operator (`i23`)
+  - Structure: `variable = condition ? value1 : value2`
 
-<span style="color: Red;">Logical Operators</span>
+- <span style="color: Red;">Logical Operators</span>
 
-- We have three types of logical operators in JavaScript:
-  - `AND` which is indicated by `&&`: It returns `true` if both operands is true (`i24`)
-  - Talk about real world use case of logical operators (`i25`)
-  - `OR` which is indicated by `||`: It returns `true` if on of operands is true (`i26`)
-  - `NOT` which is indicated by `!`: It returns `true` it reverse the value of a logical operand (`i27`)
+  - We have three types of logical operators in JavaScript:
+    - `AND` which is indicated by `&&`: It returns `true` if both operands is true (`i24`)
+    - Talk about real world use case of logical operators (`i25`)
+    - `OR` which is indicated by `||`: It returns `true` if on of operands is true (`i26`)
+    - `NOT` which is indicated by `!`: It returns `true` it reverse the value of a logical operand (`i27`)
 
-<span style="color: Red;">Logical Operators with Non-booleans</span>
+- <span style="color: Red;">Logical Operators with Non-booleans</span>
 
-- We can use logical operators for `Non-logical` values
-- `The result of a logical expression is not necessarily true ore false`
-- There are all `falsy` values in JavaScript: (`i28`)
-  - `undefined`
-  - `null`
-  - `0`
-  - `false`
-  - `''`
-  - `NaN`
-- Anything that is not falsy is `Truthy`
-- Talk about Short-circuit and real example of it (`i29`)
+  - We can use logical operators for `Non-logical` values
+  - `The result of a logical expression is not necessarily true ore false`
+  - There are all `falsy` values in JavaScript: (`i28`)
+    - `undefined`
+    - `null`
+    - `0`
+    - `false`
+    - `''`
+    - `NaN`
+  - Anything that is not falsy is `Truthy`
+  - Talk about Short-circuit and real example of it (`i29`)
 
-<span style="color: Red;">Bitwise Operators</span>
+- <span style="color: Red;">Bitwise Operators</span>
 
-- It's far beyond the course but we try to cover it
-- Talk about binary numbers (`8 bytes`)
-- Bitwise `or` indicate by `|` (`i30`)
-- Bitwise `and` indicate by `&`
-- Talk about real world example related to bitwise operators (`i31`)
+  - It's far beyond the course but we try to cover it
+  - Talk about binary numbers (`8 bytes`)
+  - Bitwise `or` indicate by `|` (`i30`)
+  - Bitwise `and` indicate by `&`
+  - Talk about real world example related to bitwise operators (`i31`)
 
-<span style="color: Red;">Operators Precedence</span>
+- <span style="color: Red;">Operators Precedence</span>
 
-- Evaluation of a expression that have operators may have different result based on the order of operators (`i32`)
-- ![](assets/9.png)
-- Parentheses have highest precedence
+  - Evaluation of a expression that have operators may have different result based on the order of operators (`i32`)
+  - ![](assets/9.png)
+  - Parentheses have highest precedence
 
-<span style="color: Red;">Exercise</span>
+- <span style="color: Red;">Exercise</span>
 
-- Write a piece of code that swap values of two variable (`i33, 34`)
+  - Write a piece of code that swap values of two variable (`i33, 34`)
 
 ### <span style="color: #44cecc;">Control Flow</span>
 
-<span style="color: Red;">If... Else</span>
+- <span style="color: Red;">If... Else</span>
 
-- In JavaScript we have two kinds of conditions
-  - `if...else`
-  - `switch...case`
-- By using if condition we can check a statement and have different kind of reactions
-- The `if` structure is: `if (condition) {statement}` ('i35')
-- The `if...else` structure: `if (condition) {statement1} esle if (another_condition) {statement2}`
-- Work on a real world example (`i36`)
+  - In JavaScript we have two kinds of conditions
+    - `if...else`
+    - `switch...case`
+  - By using if condition we can check a statement and have different kind of reactions
+  - The `if` structure is: `if (condition) {statement}` ('i35')
+  - The `if...else` structure: `if (condition) {statement1} esle if (another_condition) {statement2}`
+  - Work on a real world example (`i36`)
 
-<span style="color: Red;">Switch...Case</span>
+- <span style="color: Red;">Switch...Case</span>
 
-- We use variables instead of conditions in using `switch...case`
-- The `switch...case` structure is: `switch(variable){case value1: statement; break; case value2: statement; break; ...}` (`i37`)
-- There is no limitation for using `cases`
-- We can use `default` statement optionally when none of cases are true
-- We can compare variables by using `switch...case` statement but in the case of booleans it's better to use `if` statement
-- Using of switch...case become deprecated in new programming style
+  - We use variables instead of conditions in using `switch...case`
+  - The `switch...case` structure is: `switch(variable){case value1: statement; break; case value2: statement; break; ...}` (`i37`)
+  - There is no limitation for using `cases`
+  - We can use `default` statement optionally when none of cases are true
+  - We can compare variables by using `switch...case` statement but in the case of booleans it's better to use `if` statement
+  - Using of switch...case become deprecated in new programming style
 
-<span style="color: Red;">Loop</span>
+- <span style="color: Red;">Loop</span>
 
-- We use loops to repeat an action for number of times
-- Talk about poor way of logging something five times
-- We have five kind of loops in js
-  - `For` loop
-  - `While` loop
-  - `Do...While` loop
-  - `For...in` loop
-  - `For...of` loop
+  - We use loops to repeat an action for number of times
+  - Talk about poor way of logging something five times
+  - We have five kind of loops in js
+    - `For` loop
+    - `While` loop
+    - `Do...While` loop
+    - `For...in` loop
+    - `For...of` loop
 
-<span style="color: Red;">For Loop</span>
+- <span style="color: Red;">For Loop</span>
 
-- Structure: `for (initialExpression; condition; incrementExpression) {Statement}`
-- `i` in for loop is `loop variable`
-- Talk about the working cycle on a real example (`i38-39-40`)
-- Talk about for loop indexing and different conditions
+  - Structure: `for (initialExpression; condition; incrementExpression) {Statement}`
+  - `i` in for loop is `loop variable`
+  - Talk about the working cycle on a real example (`i38-39-40`)
+  - Talk about for loop indexing and different conditions
 
-<span style="color: Red;">While Loop</span>
+- <span style="color: Red;">While Loop</span>
 
-- In for loop, loop variable is the part of the loop but in while loop we have to declare it externally
-- Loop variable works only in the loop scope but while loop variable is out of the scope
-- Structure: `While (condition) {Statement; increment statement}` (`i41`)
-- Talk about the working cycle on a real example
+  - In for loop, loop variable is the part of the loop but in while loop we have to declare it externally
+  - Loop variable works only in the loop scope but while loop variable is out of the scope
+  - Structure: `While (condition) {Statement; increment statement}` (`i41`)
+  - Talk about the working cycle on a real example
 
-<span style="color: Red;">Do...While Loop</span>
+- <span style="color: Red;">Do...While Loop</span>
 
-- `do..while` loops are always executed at least once even th condition evaluate to false
-- Structure: `do {Statement; increment statement}  while(condition) ` (`i42`)
-- Show differences between while and do...while loop by an example
-- In modern programming using do...while loop is not common and it's not practical
+  - `do..while` loops are always executed at least once even th condition evaluate to false
+  - Structure: `do {Statement; increment statement}  while(condition) ` (`i42`)
+  - Show differences between while and do...while loop by an example
+  - In modern programming using do...while loop is not common and it's not practical
 
-<span style="color: Red;">Infinite Loop</span>
+- <span style="color: Red;">Infinite Loop</span>
 
-- Infinite loops can continue infinitely and cause crash for your browser or computer
-- Explain it through a while loop without increment statement (`i43`)
+  - Infinite loops can continue infinitely and cause crash for your browser or computer
+  - Explain it through a while loop without increment statement (`i43`)
 
-<span style="color: Red;">For...in Loop</span>
+- <span style="color: Red;">For...in Loop</span>
 
-- We use for...in loop on a iterable object like array or properties of an object
-- Structure: `for (variable in object) {statement}` (`i44`)
-- Talk about it through an real example of array and object
-- We don't use this loop for array typically (`i45`)
+  - We use for...in loop on a iterable object like array or properties of an object
+  - Structure: `for (variable in object) {statement}` (`i44`)
+  - Talk about it through an real example of array and object
+  - We don't use this loop for array typically (`i45`)
 
-<span style="color: Red;">For...of Loop</span>
+- <span style="color: Red;">For...of Loop</span>
 
-- It is completely new in JS (After EcmaScript6)
-- It doesn't need to handel indexes and the loop is over the items
+  - It is completely new in JS (After EcmaScript6)
+  - It doesn't need to handel indexes and the loop is over the items
 
-<span style="color: Red;">Break and Continue</span>
+- <span style="color: Red;">Break and Continue</span>
 
-- If in some case we need to jump out of the loop quickly we use `break` statement
-- If in some case we need to jump at beginning of the loop quickly we use `continue` statement
-- continue is a king of legacy from old fashion programming in it's not common
+  - If in some case we need to jump out of the loop quickly we use `break` statement
+  - If in some case we need to jump at beginning of the loop quickly we use `continue` statement
+  - continue is a king of legacy from old fashion programming in it's not common
 
-<span style="color: Red;">Exercise</span>
+- <span style="color: Red;">Exercise</span>
 
-- `Number 1`: Write a function that takes two numbers and returns the maximum of the two (`i48-49`)
-- `Number 2`: Write a function that takes width and height of a picture and define the frame of it (landscape or portrait) (`i50-51`)
-- `Number 3`: Write a `fizzBuzz` function (`i52-53`)
-- `Number 4`: Write a function that check a car speed and return ok if it's under a specific value (`i54-56`)
-- `Number 5`: Write a function that returns all numbers till a specific number with its `Odd/Even` label (`i57-58`)
-- `Number 6`: Write a function that returns number of all truthy elements inside a array (`i59-60`)
-- `Number 7`: Write a function that returns all string properties inside a object (`i61-62`)
-- `Number 8`: Write a function that returns the sum of all divisible numbers by 3 and 5 from 0 to a limit number (`i63-64`)
-- `Number 9`: Write a function that returns the average of all scores of a student in the form of label (`i65-67`)
-- `Number 10`: Write a function that gets a number and returns a triangle of stars with height of that number (`i68-69`)
-- `Number 11`: Write a function that returns all prime numbers up to a limit (`70-72`)
+  - `Number 1`: Write a function that takes two numbers and returns the maximum of the two (`i48-49`)
+  - `Number 2`: Write a function that takes width and height of a picture and define the frame of it (landscape or portrait) (`i50-51`)
+  - `Number 3`: Write a `fizzBuzz` function (`i52-53`)
+  - `Number 4`: Write a function that check a car speed and return ok if it's under a specific value (`i54-56`)
+  - `Number 5`: Write a function that returns all numbers till a specific number with its `Odd/Even` label (`i57-58`)
+  - `Number 6`: Write a function that returns number of all truthy elements inside a array (`i59-60`)
+  - `Number 7`: Write a function that returns all string properties inside a object (`i61-62`)
+  - `Number 8`: Write a function that returns the sum of all divisible numbers by 3 and 5 from 0 to a limit number (`i63-64`)
+  - `Number 9`: Write a function that returns the average of all scores of a student in the form of label (`i65-67`)
+  - `Number 10`: Write a function that gets a number and returns a triangle of stars with height of that number (`i68-69`)
+  - `Number 11`: Write a function that returns all prime numbers up to a limit (`70-72`)
 
 ### <span style="color: #44cecc;">Objects</span>
 
-<span style="color: Red;">Basics</span>
+- <span style="color: Red;">Basics</span>
 
-- Why we define objects (Highly related properties)(`i73`)
-- A property of an object can be another object
-- A compose of properties and functions inside an object is the refer to OOP (Object Oriented Programming)(`i74`)
-- We call a function of an object, `method`
+  - Why we define objects (Highly related properties)(`i73`)
+  - A property of an object can be another object
+  - A compose of properties and functions inside an object is the refer to OOP (Object Oriented Programming)(`i74`)
+  - We call a function of an object, `method`
 
-<span style="color: Red;">Factory Functions</span>
+- <span style="color: Red;">Factory Functions</span>
 
-- To avoid duplication and nemours bug fixing we use factory functions (`i75-78`)
+  - To avoid duplication and nemours bug fixing we use factory functions (`i75-78`)
 
-<span style="color: Red;">Constructor Functions</span>
+- <span style="color: Red;">Constructor Functions</span>
 
-- Naming convention for defining a constructor function is different (`i79`)
-- We use `Pascal` notation instead of `Camel case` notation
-- We use <span style="color: #09f;">this</span> statement to initialize an object instead of returning it
-- In JS objects are dynamic
-- We use `new` statement to define a new object in this method
-- By using new three actions are happen
-  - Creating and empty object
-  - Pointing methods and properties to the empty object
-  - Return new object
-- To recap,Talk about the differences between two methods
-- The second method is old fashion (C++, Java)
+  - Naming convention for defining a constructor function is different (`i79`)
+  - We use `Pascal` notation instead of `Camel case` notation
+  - We use <span style="color: #09f;">this</span> statement to initialize an object instead of returning it
+  - In JS objects are dynamic
+  - We use `new` statement to define a new object in this method
+  - By using new three actions are happen
+    - Creating and empty object
+    - Pointing methods and properties to the empty object
+    - Return new object
+  - To recap,Talk about the differences between two methods
+  - The second method is old fashion (C++, Java)
 
-<span style="color: Red;">Dynamic Nature of Objects</span>
+- <span style="color: Red;">Dynamic Nature of Objects</span>
 
-- We can always add or remove a property or method from objects anytime (`i80`)
-- We cannot reassign an object (`=`) because of `const` statement
+  - We can always add or remove a property or method from objects anytime (`i80`)
+  - We cannot reassign an object (`=`) because of `const` statement
 
-<span style="color: Red;">Constructor Property</span>
+- <span style="color: Red;">Constructor Property</span>
 
-a- Every object in JavaScript has property called `constructor` (`i81-83`)
+  - Every object in JavaScript has property called `constructor` (`i81-83`)
 
-- This property references to the function that create that object
-- Talk about other kinds of objects like strings in js
+  - This property references to the function that create that object
+  - Talk about other kinds of objects like strings in js
 
-<span style="color: Red;">Functions are Objects</span>
+- <span style="color: Red;">Functions are Objects</span>
 
-- Actually functions in JS is a kind of object and by using dot notation we can see all methods and properties which related to a function (`i84-85`)
-- We can use `call` and `apply` methods on our function to pass the variables
-- If we never use `new` statement for definition of an object it refers to global constructor object which is `window`
+  - Actually functions in JS is a kind of object and by using dot notation we can see all methods and properties which related to a function (`i84-85`)
+  - We can use `call` and `apply` methods on our function to pass the variables
+  - If we never use `new` statement for definition of an object it refers to global constructor object which is `window`
 
-<span style="color: Red;">Value vs Reference Types</span>
+- <span style="color: Red;">Value vs Reference Types</span>
 
-- Actually in JavScript we have two types of values: Primitive and Objects (`i86-92`)
-- Variables store independently in JS but objects store in another place (reference)
-- Local variables are the best example of separation of the stor location related to two different variables
-- Remember that primitives are copied by their values but Objects are copied by their reference
+  - Actually in JavScript we have two types of values: Primitive and Objects (`i86-92`)
+  - Variables store independently in JS but objects store in another place (reference)
+  - Local variables are the best example of separation of the stor location related to two different variables
+  - Remember that primitives are copied by their values but Objects are copied by their reference
 
-<span style="color: Red;">Enumerating Properties of an Object</span>
+- <span style="color: Red;">Enumerating Properties of an Object</span>
 
-- Typically we use `for...in` loop to iterate over an Object properties (`i93-94`)
-- An object is not iterable and you cannot use `for...of` loop over it. It works only with arrays and maps
-- By using `keys()` and `entries()` methods we can use for...of loop over an object
-- Talk about their functionality and performance
-- We can use `in` operator to check the existence of a property in an object
+  - Typically we use `for...in` loop to iterate over an Object properties (`i93-94`)
+  - An object is not iterable and you cannot use `for...of` loop over it. It works only with arrays and maps
+  - By using `keys()` and `entries()` methods we can use for...of loop over an object
+  - Talk about their functionality and performance
+  - We can use `in` operator to check the existence of a property in an object
 
-<span style="color: Red;">Cloning an Object</span>
+- <span style="color: Red;">Cloning an Object</span>
 
-- By using a simple for loop we can assign all properties of an object to another (`i95-96`)
-- Also by using `assign()` method we can do the same thing like above
-- `Spread` operator (`{...}`) is the third way of assigning an object to another
+  - By using a simple for loop we can assign all properties of an object to another (`i95-96`)
+  - Also by using `assign()` method we can do the same thing like above
+  - `Spread` operator (`{...}`) is the third way of assigning an object to another
 
-<span style="color: Red;">Garbage Collection</span>
+- <span style="color: Red;">Garbage Collection</span>
 
-- We don't need to allocate and de-allocate memory to an object in JavaScript (Like C++ and Java)
-- JavaScript engin has something called `Garbage Collector` which is doing that for use
+  - We don't need to allocate and de-allocate memory to an object in JavaScript (Like C++ and Java)
+  - JavaScript engin has something called `Garbage Collector` which is doing that for use
 
-<span style="color: Red;">Math</span>
+- <span style="color: Red;">Math</span>
 
-- Search JavaScript Math module in Google
-- Talk about the document and use some Math module methods (round, max, min,...)
+  - Search JavaScript Math module in Google
+  - Talk about the document and use some Math module methods (round, max, min,...)
 
-<span style="color: Red;">String</span>
+- <span style="color: Red;">String</span>
 
-- We have two types of string in JS: `String Primitive` , `String Object`
-- Any time when we use dot notation for an string JS engin wraps that to an object string automatically
-- Search for JavaScript strings in Google (`i97-100`)
-- Talk about scape characters
+  - We have two types of string in JS: `String Primitive` , `String Object`
+  - Any time when we use dot notation for an string JS engin wraps that to an object string automatically
+  - Search for JavaScript strings in Google (`i97-100`)
+  - Talk about scape characters
 
-<span style="color: Red;">Template Literals</span>
+- <span style="color: Red;">Template Literals</span>
 
-- It's better to use template literal to present strings in JS (`i101-103`)
-- Talk a out other Literals
-- Another benefit of using template literal is ability of using `placeholders`
+  - It's better to use template literal to present strings in JS (`i101-103`)
+  - Talk a out other Literals
+  - Another benefit of using template literal is ability of using `placeholders`
 
-<span style="color: Red;">Date</span>
+- <span style="color: Red;">Date</span>
 
-- We can use Date Object in JS in 6 different ways (`i104`)
-- Using this object without any argument returns current date time
-- To find all possible formats for string value in Date object it's better to read documentation (JavaScript date in Google)
-- Use `toDateString()` method to convert date to string
+  - We can use Date Object in JS in 6 different ways (`i104`)
+  - Using this object without any argument returns current date time
+  - To find all possible formats for string value in Date object it's better to read documentation (JavaScript date in Google)
+  - Use `toDateString()` method to convert date to string
 
-<span style="color: Red;">Exercise</span>
+- <span style="color: Red;">Exercise</span>
 
-- `Number 1`: Create an address object with three properties and a function which returns all properties and their values of this object(`i105`)
-- `Number 2`: Create address object using factory function and constructor function(`i106-107`)
-- `Number 3`: Write two functions that check equality and resemblance of two different object(`i108-110`)
-- `Number 4`: Write a Blog post object(`i111-112`)
-- `Number 5`: Write a constructor function for our Blog post object(`i113`)
+  - `Number 1`: Create an address object with three properties and a function which returns all properties and their values of this object(`i105`)
+  - `Number 2`: Create address object using factory function and constructor function(`i106-107`)
+  - `Number 3`: Write two functions that check equality and resemblance of two different object(`i108-110`)
+  - `Number 4`: Write a Blog post object(`i111-112`)
+  - `Number 5`: Write a constructor function for our Blog post object(`i113`)
 
 ### <span style="color: #44cecc;">Arrays</span>
 
-<span style="color: Red;">Introduction</span>
+- <span style="color: Red;">Introduction</span>
 
-- In this part of the course we try to learn how to do different operations over arrays like adding, finding, removing, splitting, and combining
+  - In this part of the course we try to learn how to do different operations over arrays like adding, finding, removing, splitting, and combining
 
-<span style="color: Red;">Adding Elements</span>
+- <span style="color: Red;">Adding Elements</span>
 
-- We cannot reassign an constant array to a new value (`i114-115`)
-- By using `.push()` method we can add a value or a list of values to the `end` of an array
-- By using `.unshift()` method we can add a value or a list of values to the `beginning` of an array
-- By using `.splice()` method we can add a value or a list of values to the `middle` of an array
+  - We cannot reassign an constant array to a new value (`i114-115`)
+  - By using `.push()` method we can add a value or a list of values to the `end` of an array
+  - By using `.unshift()` method we can add a value or a list of values to the `beginning` of an array
+  - By using `.splice()` method we can add a value or a list of values to the `middle` of an array
 
-<span style="color: Red;">Finding Elements (Primitives)</span>
+- <span style="color: Red;">Finding Elements (Primitives)</span>
 
-- By using `.indexOf()` method we can Find a value in our array
-- If that element doesn't exist it returns `-1`
-- Also by using `.lastIndexOf()` method we can Find the last repetition of a value in our array
-- Instead of all checking index of an elements we can use `.include()` method
-- Talk about the condition for if statement
-- Second parameter in all methods we talk about is the first index that we want to our search begin
+  - By using `.indexOf()` method we can Find a value in our array
+  - If that element doesn't exist it returns `-1`
+  - Also by using `.lastIndexOf()` method we can Find the last repetition of a value in our array
+  - Instead of all checking index of an elements we can use `.include()` method
+  - Talk about the condition for if statement
+  - Second parameter in all methods we talk about is the first index that we want to our search begin
 
-<span style="color: Red;">Finding Elements (Reference Types)</span>
+- <span style="color: Red;">Finding Elements (Reference Types)</span>
 
-- `.include()` doesn't work on reference types (because of two different references) (`i118-119`)
-- We can `.find()` method. Search for it in Google
-- We use a predicate (Callback) function to pass reference type object to and perform a operation on its elements
-- This method returns an Item or `undefined` (if it doesn't find anything)
-- Also We can `.findIndex()` method. This method returns index of item or `-1`
+  - `.include()` doesn't work on reference types (because of two different references) (`i118-119`)
+  - We can `.find()` method. Search for it in Google
+  - We use a predicate (Callback) function to pass reference type object to and perform a operation on its elements
+  - This method returns an Item or `undefined` (if it doesn't find anything)
+  - Also We can `.findIndex()` method. This method returns index of item or `-1`
 
-<span style="color: Red;">Arrow Functions</span>
+- <span style="color: Red;">Arrow Functions</span>
 
-- If you want to pass a function as callback function or argument to a method you can use different syntax (`i120`)
-- You can remove parenthesis and return statement and make your function simpler
+  - If you want to pass a function as callback function or argument to a method you can use different syntax (`i120`)
+  - You can remove parenthesis and return statement and make your function simpler
 
-<span style="color: Red;">Removing Elements</span>
+- <span style="color: Red;">Removing Elements</span>
 
-- By using `.pop()` method we can remove a value or a list of values from the `end` of an array (`i121`)
-- By using `.shift()` method we can remove a value or a list of values from the `beginning` of an array
-- By using `.splice()` method we can remove a value or a list of values from the `middle` of an array
+  - By using `.pop()` method we can remove a value or a list of values from the `end` of an array (`i121`)
+  - By using `.shift()` method we can remove a value or a list of values from the `beginning` of an array
+  - By using `.splice()` method we can remove a value or a list of values from the `middle` of an array
 
-<span style="color: Red;">Empty an Array</span>
+- <span style="color: Red;">Empty an Array</span>
 
-- Solution1: By assigning an array to `[]` we can make it empty (`i122-125`)
-- Solution2: Also by setting an array's length to 0 we can make it empty and garbage collecting issue is going to be solved
-- Solution3: By using `.splice()` method we can make an array empty
-- Solution4: (Not recommended) Using a while loop and `.pop()` method
-- Two first Solution is my preferences
+  - Solution1: By assigning an array to `[]` we can make it empty (`i122-125`)
+  - Solution2: Also by setting an array's length to 0 we can make it empty and garbage collecting issue is going to be solved
+  - Solution3: By using `.splice()` method we can make an array empty
+  - Solution4: (Not recommended) Using a while loop and `.pop()` method
+  - Two first Solution is my preferences
 
-<span style="color: Red;">Combining and Slicing Arrays</span>
+- <span style="color: Red;">Combining and Slicing Arrays</span>
 
-- We can use concatenate (`.concat()`) method to combine two different array (`i126`)
-- In the opposite we can slice an array to sub arrays using `.slice()` method (`i127-129`)
-- Using `.splice()` method without argument return a copy of original array
-- Remember primitive and reference types behavior about saving in the memory
+  - We can use concatenate (`.concat()`) method to combine two different array (`i126`)
+  - In the opposite we can slice an array to sub arrays using `.slice()` method (`i127-129`)
+  - Using `.splice()` method without argument return a copy of original array
+  - Remember primitive and reference types behavior about saving in the memory
 
-<span style="color: Red;">The Spread Operator</span>
+- <span style="color: Red;">The Spread Operator</span>
 
-- The spread operator can combine items of two different array into a combine array (`i130-131`)
-- We can add new items to combine array during spreading operation
+  - The spread operator can combine items of two different array into a combine array (`i130-131`)
+  - We can add new items to combine array during spreading operation
 
-<span style="color: Red;">Iterating an Array</span>
+- <span style="color: Red;">Iterating an Array</span>
 
-- By using `for...of` statement we can iterate over an array (`i132-134`)
-- Also by using `forEach()` method and passing a function we can do the same thing
-- Make sample your callback function in arrow function format
-- This call back function can return index of each item
+  - By using `for...of` statement we can iterate over an array (`i132-134`)
+  - Also by using `forEach()` method and passing a function we can do the same thing
+  - Make sample your callback function in arrow function format
+  - This call back function can return index of each item
 
-<span style="color: Red;">Joining Arrays</span>
+- <span style="color: Red;">Joining Arrays</span>
 
-- By using `.join()` method we can stick all elements on an array together (`i135-136`)
-- Talk about `.split()` method and using it on a string with `.join()` method
-- URLs are a good example for using this method in real world problems
+  - By using `.join()` method we can stick all elements on an array together (`i135-136`)
+  - Talk about `.split()` method and using it on a string with `.join()` method
+  - URLs are a good example for using this method in real world problems
 
-<span style="color: Red;">Sorting Arrays</span>
+- <span style="color: Red;">Sorting Arrays</span>
 
-- By using `.sort()` method we can sort an array (`i137-`)
-- By using `.reverse()` method we can sort an array in reverse order
-- To sort an array of objects we need to pass an optional parameter (a special `function`) to this method
-- Talk about the differences between lower and upper case characters and ascii table (Google it)
+  - By using `.sort()` method we can sort an array (`i137-`)
+  - By using `.reverse()` method we can sort an array in reverse order
+  - To sort an array of objects we need to pass an optional parameter (a special `function`) to this method
+  - Talk about the differences between lower and upper case characters and ascii table (Google it)
+
+- <span style="color: Red;">Testing Elements of an Array</span>
+
+  - By using `.every()` method you can check a criteria over all elements of an array (`i140-141`)
+  - It takes three parameters which the first one is a callback function
+  - If every method find a value that return false stop checking and return false value
+  - If you want that only one element in an array have a specific criteria use the `.some()` method
+
+- <span style="color: Red;">Filtering an Array</span>
+
+  - We can filter an array based on a criteria using `.filter()` method (`i142-143`)
+  - Filter method returns a new array which in it all items matches to our function criteria
+  - Write down your filter function using a sample arrow function
+  - Talk about filtering in real-world problems
+
+- <span style="color: Red;">Mapping an Array</span>
+
+  - We can map an array items to something else based on a criteria using `.map()` method (`i144-149`)
+  - Map all items of your array to an object using `.map()` method
+  - Optimize your arrow function and use `()` instead of return statement
+  - Chain your `.filter()` and `.map()` method to simplify your code
+  - It's because of that the map and filter method return another array
+
+- <span style="color: Red;">Reducing an Array</span>
+
+  - To calculate the sum of all items inside an array we can use a loop over it or use `.reduce()` method (`i150-151`)
+  - First parameter of this method is a callback function with two parameters `(accumulator, currentValue)`
+  - Second parameter of `.reduce()` method is the initial value of accumulator which we set it to `0`
+  - If we forget to set the accumulator to `0` at beginning of the execution of reduce method it going to be set as first item in the array
+
+- <span style="color: Red;">Exercises</span>
+
+  - `Number1`: Write a function that take to parameter and return of all numbers between two numbers as an array (`i152-153`)
+  - `Number2`: Write a function that works like `.includes()` method (`i154-155`)
+  - `Number3`: Write a function that takes two array and remove all items of second array from the first one (`i156-157`)
+  - `Number4`: Write a function that takes an array and two parameters and move an item which to another offset (`i158-159`)
+  - `Number5`: Write a function that takes an array and an item and returns the number of occurrence of that item (`i160-162`)
+  - `Number6`: Write a function that takes an array and returns the largest number in that array (`i163-166`)
+  - `Number7`: Write a function that takes an array of objects and returns the sorted form of it based on the rating (`i167-168`)
