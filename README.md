@@ -608,3 +608,40 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - `Number5`: Write a function that takes an array and an item and returns the number of occurrence of that item (`i160-162`)
   - `Number6`: Write a function that takes an array and returns the largest number in that array (`i163-166`)
   - `Number7`: Write a function that takes an array of objects and returns the sorted form of it based on the rating (`i167-168`)
+
+### <span style="color: #44cecc;">Functions</span>
+
+- <span style="color: Red;">Function Declarations vs. Expressions</span>
+
+  - We can define a function in JavaScript in two different way: `Declaration` and `Expression` (`i169`)
+  - In the second way we assign our function to a variable like an object
+  - We don't terminate a function declaration using a `;` by conventions
+
+- <span style="color: Red;">Hoisting</span>
+
+  - We can call a function which is defined by function declaration syntax before it's definition (`i170`)
+  - When we define a function using function declaration syntax JS engin move it to the top of the code virtually and this is what we call `Hoisting`
+
+- <span style="color: Red;">Arguments</span>
+
+  - JS is a dynamic type language (`i171-174`)
+  - Call `argument` object for our function and explain it
+  - We can iterate over argument object for a function and also we can remove parameters
+
+- <span style="color: Red;">The Rest Operator</span>
+
+  - Don't confuse rest and spread operators (`i175-177`)
+  - It turns your arguments to an array and you can use `.reduce()` method to operate on it
+  - We cannot add any argument after our rest operator. Rest parameter should be the last formal parameter
+
+- <span style="color: Red;">Default Parameters</span>
+
+  - By using `OR` logical operator (`||`) we can define a default value for an actual parameter (`i178-180`)
+  - After setting a default value for a parameter all parameters after it must have default value
+
+- <span style="color: Red;">Getters and Setters</span>
+
+  - We use `getters` to access properties of an object (`i181-182`)
+  - By using `setters` we can change an mutate them
+  - Prefix your method with get statement and this way you can have access to this method like a property and use it like a property
+  - By using setter and .split() method you can mutate this string value inside your object
