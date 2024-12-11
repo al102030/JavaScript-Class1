@@ -641,7 +641,57 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
 
 - <span style="color: Red;">Getters and Setters</span>
 
+  - Using regular methods to present properties of an object is read only and you can't change properties in this way
   - We use `getters` to access properties of an object (`i181-182`)
   - By using `setters` we can change an mutate them
   - Prefix your method with get statement and this way you can have access to this method like a property and use it like a property
   - By using setter and .split() method you can mutate this string value inside your object
+
+- <span style="color: Red;">Try and Catch</span>
+
+  - All kinds of errors in JavaScript:
+    - `Syntax Error`: Code violates JavaScript syntax rules. Detected at compile time.
+    - `Reference Error`: Accessing undeclared or out-of-scope variables. Detected at runtime.
+    - `Logical Error`: Code produces incorrect results. Detected during debugging.
+    - `Exception Error`: Code runs into unexpected situations. Can be handled with `try...catch`
+  - In last Example if user set a none String value to getter property it can cause a error in your code (`i183-184`)
+  - For error handling we need to use `defensive programming`
+  - If we need to report the error to user we can trow an exception
+  - By using `Try...Catch` statement we can catch error message and show it in `alert` or `red label` form
+  - After throw an exception codes after it don't be executed
+
+- <span style="color: Red;">Local vs Global Scope</span>
+
+  - A scope of a variable or constant determines where that variable or constant is accessible (`i185-187`)
+  - When we define a variable using `const` or `let` their scope is limited to the block in which they are defined
+  - Talk about other code blocks like if, for, or functions
+  - When we define a variable outside of any block this variable has `global scope` and can be accessible anywhere in the code
+  - A global variable can be changed inside a inner scope
+  - As long as you can, you should avoid using a global variable in your code
+
+- <span style="color: Red;">Let vs Var</span>
+
+  - The concept of block is right even in the case of `{}` absence (`i188-191`)
+
+  - Check Scope error when using `var` keyword for a i variable
+  - When you declare a variable with `var` keyword its scope is not limited to the block in which it's defined
+  - `Let` and `const` (ES6) create block-scope variables and `var` creates function-scope variable
+  - Defining a `Global` variable using `var` keyword attach this keyword to window `object` and it's `bad`
+
+- <span style="color: Red;">The "This" Keyword</span>
+
+  - `This` references the `Object` that is executing the current function (`i192-201`)
+  - If we use `this` of a function this has the reference of the object of this function
+  - In the case of a regular function (when it's not part of an object) `this` references to global object (window, global)
+  - In the case of constructor functions `this` has the reference of a new object
+  - Remember that a call back function is a regular function and this in for it has the reference of window object
+  - Use the second parameter of `forEach()` method to pass your arguments
+  - We can save `this` value in another variable before calling a function, to save current object reference
+  - Also we can use `call` and `apply` function to change this value
+  - The better way and prefer way is using arrow function because arrow functions inherit current object variable from previous block
+
+- <span style="color: Red;">Exercises</span>
+
+  - `Number1`: Write a function called `Sum` that takes a varying number of arguments and return their sum. Also modify this to accept an array as argument (`i201-203`)
+  - `Number2`: Write an object which has a property and a method which is only readable and not writeable (`i204`)
+  - `Number2`: Change the `countOccurrence()` function which we practice in the last section and handel its errors if we pass boolean value instead of an array (`i205`)
