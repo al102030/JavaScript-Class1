@@ -695,3 +695,54 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - `Number1`: Write a function called `Sum` that takes a varying number of arguments and return their sum. Also modify this to accept an array as argument (`i201-203`)
   - `Number2`: Write an object which has a property and a method which is only readable and not writeable (`i204`)
   - `Number2`: Change the `countOccurrence()` function which we practice in the last section and handel its errors if we pass boolean value instead of an array (`i205`)
+
+### <span style="color: #44cecc;">Object Oriented Programming (OOP)</span>
+
+- <span style="color: Red;">Basics (Recap)</span>
+
+  - Talk about an object, property, method, dot notation and it's literal
+  - Talk about object oriented point of view and the concept
+  - Talk about how can we declare a string primitive (Not An actual object) or a string object
+  - Also talk about window object (`Browser`) and global object (`Node`)again and two kinds of programming
+  - Example of a simple object and its literal
+  - We can call all values by `Object.values()` method and keys by using `Object.keys()` method
+
+- <span style="color: Red;">Constructors</span>
+
+  - Talk about constructor and instantiation
+  - And write a constructor for book object and add a method to it
+
+- <span style="color: Red;">Prototypes</span>
+
+  - You can add your methods to prototype of your object and create a `prototype property`
+  - This way of defining a method move that method to the property list of our object
+  - By doing that this method never be created for all instance and they can be callable when an object call them
+  - An example of writing a prototype method for students (`.getAge()` method)
+  - By using another function called `revise` we can change a property value
+
+- <span style="color: Red;">Inheritance</span>
+
+  - By using `.call()` method we can inherit from another object constructor function in a new one
+  - To inherit prototype method we need to use `.create()` method of `Object`
+  - Also we need to change the constructor name of our new constructor function
+
+- <span style="color: Red;">Object Create</span>
+
+  - There is different ways to create an object
+  - We can create an object using `Object.create()` method and add properties after (Through another object as parameter which contain other properties)
+
+- <span style="color: Red;">Class</span>
+
+  - Talk about classes and how to implement constructor and other properties inside it
+  - to add a constructor to our class we can use the `constructor` statement as method name and it's different from `constructor function`
+  - We can create our objects based on the `class definition` and its the better and easy way
+  - Also add `revise` method to your class definition and revise your book object
+  - We can create a `static method` in our class which is only callable with the actual class and you don't need to instantiated for using this method
+
+- <span style="color: Red;">Sub Class</span>
+
+  - By using `extends` statement we can create a sub class based on our original class
+  - `supper()` function can call all the properties from the original class
+  - Using inheritance in ES6 version of JS and class definition is better and easy way to use OOP in our code
+
+### <span style="color: #44cecc;">The Document Object Model (DOM)</span>
