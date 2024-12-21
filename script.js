@@ -131,8 +131,12 @@ Book.prototype.getSummary = function () {
 
 // console.log(mag1);
 
-let outPut;
+// let outPut;
 
-outPut = document.all;
+// outPut = document.all;
 
-console.log(outPut);
+// console.log(outPut);
+
+// document.forms[0].id = 'new-id';
+
+document.getElementById('app-title').title = 'Another title';

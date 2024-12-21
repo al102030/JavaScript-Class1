@@ -746,3 +746,32 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - Using inheritance in ES6 version of JS and class definition is better and easy way to use OOP in our code
 
 ### <span style="color: #44cecc;">The Document Object Model (DOM)</span>
+
+- <span style="color: Red;">Intro to DOM</span>
+
+  - ![](assets/10.png)
+  - DOM is a structure that we can interact with via JavaScript
+  - We can use other languages to do that but in most cases we use JS
+  - It is a kind of tree structure
+  - ![](assets/11.png)
+  -
+  - Talk about window object and also document object (cld)
+  - To get HTML elements in our page we can call the sections like body or head after document property
+  - Also by using `innerHTML` property we can do the same thing
+  - By using `innerText` property we can get the actual text nodes
+  - By using `links` property we can get the URLs in the page and it returns an array called `HTMLCollection`
+  - We can use it like an array and its indexing ability
+  - And we can change anything in the page using these properties temporary using assignment symbol (`=`)
+  - We can also use methods like `write` inside the page using document property
+  - Also we have methods to select elements and tags in the page like `getElementById()`
+  -
+  - Also we have methods to select elements a specific tag like `querySelector()`
+
+- <span style="color: Red;">Document Element Properties</span>
+
+  - Initialize Sample page to work with DOM
+  - Get all (`all` property) Document items in a variable and console it (Use it in the form of an array)
+  - By using `documentElement` we can get all HTML elements in the page
+  - Test some properties like `head`, `body`, `children`, `!doctype`, `domain`, `URL`, `characterSet`, `contentType`, `forms`(it's like an array)
+  - We also can change links by using `links` property and set it to a new value (It's not the best way)
+  - We can use `forEach` method on our elements (first we should convert them to an array)
