@@ -93,15 +93,15 @@
 //     }
 // };
 
-function Book(title, author, year) {
-    this.title = title;
-    this.author = author;
-    this.year = year
-}
+// function Book(title, author, year) {
+//     this.title = title;
+//     this.author = author;
+//     this.year = year
+// }
 
-Book.prototype.getSummary = function () {
-    return `${this.title} was written by ${this.author} in ${this.year}`
-}
+// Book.prototype.getSummary = function () {
+//     return `${this.title} was written by ${this.author} in ${this.year}`
+// }
 
 // Book.prototype.getAge = function () {
 //     const years = new Date().getFullYear() - this.year;
@@ -140,3 +140,35 @@ Book.prototype.getSummary = function () {
 // document.forms[0].id = 'new-id';
 
 document.getElementById('app-title').title = 'Another title';
+
+
+// class Flower {
+//     constructor(name, color) {
+//       this.name = name;
+//       this.color = color;
+//     }
+  
+//     setProperty(key, value) {
+//       if (key in this) {
+//         console.log(`Property '${key}' updated to '${value}'.`);
+//       } else {
+//         console.log(`Property '${key}' added with value '${value}'.`);
+//       }
+//       this[key] = value;
+//     }
+//   }
+  
+
+// const myFlower = new Flower("Rose", "Red");
+// console.log(myFlower);
+  
+// myFlower.setProperty("size", "Medium");
+// console.log(myFlower);
+  
+// myFlower.setProperty("color", "Blue");
+// console.log(myFlower);
+  
+// myFlower.setProperty("type", "Wild");
+// console.log(myFlower);
+
+  

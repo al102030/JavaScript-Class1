@@ -775,3 +775,36 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - Test some properties like `head`, `body`, `children`, `!doctype`, `domain`, `URL`, `characterSet`, `contentType`, `forms`(it's like an array)
   - We also can change links by using `links` property and set it to a new value (It's not the best way)
   - We can use `forEach` method on our elements (first we should convert them to an array)
+
+- <span style="color: Red;">DOM Selectors - Single Elements</span>
+
+  - By using `getElementById()` method we can select a single item by its `id`
+  - To access to the class name we should use className property (class is not a property)
+  - We can check an attribute of an element using `getAttribute()` method
+  - Using `setAttribute()` we can set a new attribute or change an another one
+  - By placing an item in a variable we can write less code to do all things that we talk about setting and getting attributes
+  - Using this new variable we can change text of our elements using `textContent` property
+  - Also you can do it using `innerText` property and change format by using `innerHTML` attribute
+  - By using `style` property we can change style of elements
+  - We don't have dash `-` in JavaScript like `CSS` so properties' name in JS are camelCase
+  - Also by using `querySelector()` method we can select items in better way (It comes with ES6 and is the new one)
+  - THis oly select oly a single element and it's different from JQuery selection mode and only the first element
+  - We also can use `querySelector()` method on a variable which contains result of another querySelector
+  - You can use this selector with pseudo selectors in CSS
+
+- <span style="color: Red;">DOM Selectors - Multiple Elements</span>
+
+  - To select multiple elements we can use `querySelectorAll()` method
+  - This method returns a NodeList and we need to access actual items using array indexing ability
+  - By using a `forEach()` loop we can change all items together
+  - We can select multiple items by using `getElementByClassName()` method
+  - To apply a forEach loop on our HTMLCollection we need to make an array of it using `Array.From()` method
+  - We can also select multiple items by using `getElementByTagName()` method
+
+- <span style="color: Red;">Traversing the DOM - Elements</span>
+
+  - ![](assets/12.png)
+  - These methods just work with elements nodes
+  - All items in DOM is a node and have a kind of parent-child relationship with each other
+  - Also elements in the same level are a kind of siblings for each other
+  - By using properties like `firstElementChild` and `lastElementChild` we can select children based on their parent
