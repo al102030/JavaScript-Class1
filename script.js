@@ -139,7 +139,7 @@
 
 // document.forms[0].id = 'new-id';
 
-document.getElementById('app-title').title = 'Another title';
+// document.getElementById('app-title').title = 'Another title';
 
 
 // class Flower {

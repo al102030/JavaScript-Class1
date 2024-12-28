@@ -808,3 +808,60 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - All items in DOM is a node and have a kind of parent-child relationship with each other
   - Also elements in the same level are a kind of siblings for each other
   - By using properties like `firstElementChild` and `lastElementChild` we can select children based on their parent
+  - Also we can get the parent node from a child using `parentElement` property
+  - To traverse inside the children list and get siblings by using `nextElementSibling` or `previousElementSibling` properties
+
+- <span style="color: Red;">Traversing the DOM - All Nodes</span>
+
+  - Search `Dome Node Types` in Google and find the list of DOM node elements in `W3School.com`
+  - ![](assets/13.png)
+  - These methods work with all nodes
+  - Check All nodes in `nodelist` and show the differences
+  - By using `childNode` (it's a property) we can access to the child nodes of a specific node
+  - Use all other methods to work with node instead of elements
+  - In most cases we work with element nodes
+
+- <span style="color: Red;">Create & append Elements</span>
+
+  - We can create any kind of elements and insert it anywhere that we want inside the page
+  - To make new element we can use `createElement()` method
+  - Create a new div with all its attributes using dom methods
+  - Better way to create text element is creating by `createTextNode()` method and add it to our div element using `appendChild()` method
+
+- <span style="color: Red;">InnerHTML vs. createElement</span>
+
+  - It's better to create and append your elements by using `createElement()` method instead of using `innerHTML`
+  - We should use different methods to create elements instead of hard coding all items inside a single method
+
+- <span style="color: Red;">Insert Elements, Text and HTML</span>
+
+  - To insert a new element before an element in our document we can use `insertAdjacentElement()` method with `beforebegin` argument
+  - ![](assets/14.png)
+  - It's happen completely the same for inserting after an element if we pass `afterbegin` argument to this method
+  - The above process is right for `insertAdjacentText` and `insertHTML` methods
+
+- <span style="color: Red;">Replace Elements</span>
+
+  - We use `replaceWith()` method to replace an item with another one
+  - We can do the same by using `outerHTML` property
+  - Exercise: Do this for all items in the list
+  - Exercise: Do this for all items in the list using ternary operator
+
+- <span style="color: Red;">Remove Elements</span>
+
+  - By using two different methods named `remove` and `removeChild` we can remove an element
+
+### <span style="color: #44cecc;">Events</span>
+
+- <span style="color: Red;">Intro to Events</span>
+
+  - `Events` in JavaScript are actions or occurrences that happen in the web browser which the browser can respond to. These events can be triggered by user interactions like clicking, typing, or scrolling, or by other actions like page load
+  - Examples of Events:
+    - click
+    - mouseover
+    - keydown
+    - submit
+    - resize
+    - load
+    - ...
+  -
