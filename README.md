@@ -864,4 +864,48 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
     - resize
     - load
     - ...
-  -
+
+- <span style="color: Red;">Click Event</span>
+
+  - There is a ways to put an event listener inside a HTML element but it's not recommended and it can be dangerous (`inside event listener`)
+  - The second way is the `JavaScript Event Listener`
+  - The third and the most modern and recommended way is `AddEventListener` Method
+  - In this way we create a listener for a specific type of event
+  - If we put several listener of a specific event or Item only the last one would work
+  - But if we use several addEventListener on a specific element or event all of them would work
+  - Instead of using a arrow function or an unknown function we can pass one of our named functions
+  - Also we can set time for event listeners by using `setTimeout` method
+  - By using `removeEventListener` we can clear an event listener
+  - Exercise: Clear all items in the page using clear button
+  - Do the same thing using a while loop and `.removeChild()` method
+
+- <span style="color: Red;">Mouse Event</span>
+
+  - First of all Test click event for an item in the page
+  - The first argument for listener to a click can be `dblclick`
+  - For handling right click we need to pass `contextmenu` as first parameter
+  - For handling keeping mouse down event we need to pass `mousedown` as first parameter
+  - For handling lifting mouse up event we need to pass `mouseup` as first parameter
+  - Also we have other arguments for mouse events like `wheel`, `mouseover`, `mouseout`, `dragstart`, `drag` and `dragend`
+
+- <span style="color: Red;">The Event Object</span>
+
+  - We can take event object an pass it ass argument to to our unknown function
+  - There is lots of information inside this object
+  - `target` property is the element that triggered the event
+  - `currentTarget` is the same the `target` property in most cases but sometimes it's different
+  - It depends on what element that you select
+  - `TimeStamp` return the actual time of event and `type` returns the type of event
+  - `clientX` and `clientY` are the `X` and `Y` positions of the mouse click relative to the window
+  - `offsetX` and `offsetY` are the `X` and `Y` positions of the mouse click relative to the element
+  - `pageX` and `pageY` are the `X` and `Y` positions of the mouse click relative to the page
+  - `screenX` and `screenY` are the `X` and `Y` positions of the mouse click relative to the screen (monitor screen)
+  - By using `.preventDefault()` method we can stop default action of an event and change it to another
+
+- <span style="color: Red;">Keyboard Events</span>
+- `keypress` is the first and default argument for handling keyboard events
+- There is a difference between `keypress` and `keydown`
+- We can have access to some properties of keyboard events like `key`, `keycode`, and `code`
+
+- <span style="color: Red;">Input Events</span>
+-

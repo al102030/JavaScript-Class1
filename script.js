@@ -171,4 +171,52 @@
 // myFlower.setProperty("type", "Wild");
 // console.log(myFlower);
 
-  
+// function onClear() {
+//     const listItems = document.querySelector('ul');
+//     const items = document.querySelectorAll('li');
+    
+//     // listItems.innerHTML = '';
+
+//     items.forEach(item => item.remove());
+// }
+
+// const claerBtn = document.querySelector('#clear');
+
+// // claerBtn.onclick = function () {
+// //     alert('Clear button clicked');
+// // }
+
+// claerBtn.addEventListener('click', onClear);
+
+// // setTimeout(() => claerBtn.removeEventListener('click', onClear), 5000);
+
+// // setTimeout(() => claerBtn.click(), 5000);
+
+
+const logo = document.querySelector('img');
+
+const onClick = () => console.log('Clicked on the logo');
+
+const onDoubleClick = () => {
+    if (document.body.style.backgroundColor != 'blue'){
+        document.body.style.backgroundColor = 'blue';
+        document.body.style.color = 'white';
+    } else {
+        document.body.style.backgroundColor = 'white';
+        document.body.style.color = 'black';
+    }
+};
+
+const onRightClick = () => console.log('Right Click Event');
+
+const onMouseDown = () => console.log('Mouse down Event');
+
+const onMouseUp = () => console.log('Mouse Up Event');
+
+
+// Event Listeners for mouse events
+logo.addEventListener('click', onClick);
+logo.addEventListener('dblclick', onDoubleClick);
+logo.addEventListener('contextmenu', onRightClick);
+logo.addEventListener('mousedown', onMouseDown);
+logo.addEventListener('mouseup', onMouseUp);
