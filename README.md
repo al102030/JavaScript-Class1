@@ -903,9 +903,88 @@ JavaScript is a versatile, high-level `interpreted` programming language that wa
   - By using `.preventDefault()` method we can stop default action of an event and change it to another
 
 - <span style="color: Red;">Keyboard Events</span>
-- `keypress` is the first and default argument for handling keyboard events
-- There is a difference between `keypress` and `keydown`
-- We can have access to some properties of keyboard events like `key`, `keycode`, and `code`
+
+  - `keypress` is the first and default argument for handling keyboard events
+  - There is a difference between `keypress` and `keydown`
+  - Check `repeat` property using an if statement and also `alt`, `shift`, and `ctrl` keys
+  - We can have access to some properties of keyboard events like `key`, `keycode`, and `code`
 
 - <span style="color: Red;">Input Events</span>
--
+
+  - Getting and handling the data of the form in front-ent is completely different from back-end technologies
+  - `input` is the first and default argument for handling input events
+  - Also we can use `change` argument instead of `input` for dropdowns elements
+  - for getting the actual value we can use `target.value`
+  - To handel checkbox value we can capture it by using `target.checked` property
+  - We can check the status of focus for input items in page by using `focus` and `blur` arguments as first argument and typically it uses for styling
+
+- <span style="color: Red;">Form Submission and FormData Object</span>
+
+  - `submit` is the first and default argument for handling form submission
+  - You can get the value of all items in the form in `onSubmit` function
+  - By creating a new FormData object we can have access to the value of form elements
+  - `entries` gives us all values in the form in the shape of an array
+
+- <span style="color: Red;">Event Bubbling</span>
+
+  - When the event is first captured and handled by the innermost element and then propagate to outer element
+  - ![](assets/15.png)
+  -
+  - By using `stopPropagation()` method we can stop the event bubbling through the DOM Tree
+
+- <span style="color: Red;">Event Delegation and Multiple Events</span>
+
+  - To remove a `li` tag in our page when user click on the remove button we can use `closest()` method
+
+- <span style="color: Red;">Page loading and Window Events</span>
+
+  - Place your JavaScript tag inside the head an change a heading text using JS (It returns an error and isn't possible)
+  - We can place our JS code inside a `onload()` function and its a kind of trick
+  - `load` is the first and default argument for handling load the page event and we can do the same thing as what we do with `onload()` function
+  - Also we can do the same thing with `DOMContentLoaded` as first argument for our event listener
+  - Remember DOM is going to be loaded first
+  - By using `defer` attribute inside our script tag which is placed inside the head we can defer execution of JS codes after loading the whole page
+  - On window we have some other events like `resize`, `scroll`, and like
+
+### <span style="color: #44cecc;">The Browser Object Model (BOM)</span>
+
+- <span style="color: Red;">BOM</span>
+
+  - The `Browser Object Model (BOM)` in JavaScript is a set of objects provided by the web browser that allows interaction with the browser window and the environment outside of the document content
+  - Unlike the Document Object Model (DOM), which is related to the document content, the BOM deals with the browser and everything outside the page's
+  - Key Features of BOM:
+    - `Window` object: The top-level object representing the browser window
+    - `Navigator` object: Provides information about the browser
+    - `Screen` object: Provides information about the user's screen
+    - `Location` object: Represents the URL of the current page
+    - `History` object: Allows manipulation of the browser's history
+  - ![](assets/16.png)
+
+### <span style="color: #44cecc;">Session and Cookie</span>
+
+- <span style="color: Red;">Session and Cookie</span>
+  - There is three ways to save data inside the browsers:
+    - `Local`
+    - `Cookie`
+    - `Session`
+  - Compare:
+  - ![](assets/17.png)
+  -
+  - You can have access to all three items in the `application` panel in the inspect tab
+  - By using `localStorage` we can save information on local storage
+  - By using `cookie` object inside document we can save information in cookie section
+
+### <span style="color: #44cecc;">JQuery</span>
+
+- <span style="color: Red;">Intro</span>
+  - `jQuery` is a fast, small, and feature-rich JavaScript library
+  - It simplifies things like HTML document traversal and manipulation, event handling, animation, and Ajax with an easy-to-use API that works across a multitude of browsers
+  - With jQuery, web developers can write less code and achieve more, making it an essential tool in modern web development
+  - **`Key Features of jQuery`**:
+    - `Simplified DOM Manipulation`: jQuery makes it easy to select and manipulate HTML elements and their attributes
+    - `Cross-Browser Compatibility`: jQuery handles many cross-browser issues, making your code more consistent across different web browsers
+    - `Event Handling`: jQuery simplifies the process of capturing and responding to user events like clicks, form submissions, and more
+    - `Animations and Effects`: jQuery allows developers to create rich, interactive web pages with smooth animations and visual effects
+    - `Ajax Support`: jQuery makes it easy to send asynchronous HTTP requests to fetch data from a server without refreshing the page
+  - Open the actual website and use CDN technology to implement kt on your project
+  -

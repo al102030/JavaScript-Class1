@@ -193,30 +193,105 @@
 // // setTimeout(() => claerBtn.click(), 5000);
 
 
-const logo = document.querySelector('img');
+// const logo = document.querySelector('img');
 
-const onClick = () => console.log('Clicked on the logo');
+// const onClick = () => console.log('Clicked on the logo');
 
-const onDoubleClick = () => {
-    if (document.body.style.backgroundColor != 'blue'){
-        document.body.style.backgroundColor = 'blue';
-        document.body.style.color = 'white';
-    } else {
-        document.body.style.backgroundColor = 'white';
-        document.body.style.color = 'black';
-    }
-};
+// const onDoubleClick = () => {
+//     if (document.body.style.backgroundColor != 'blue'){
+//         document.body.style.backgroundColor = 'blue';
+//         document.body.style.color = 'white';
+//     } else {
+//         document.body.style.backgroundColor = 'white';
+//         document.body.style.color = 'black';
+//     }
+// };
 
-const onRightClick = () => console.log('Right Click Event');
+// const onRightClick = () => console.log('Right Click Event');
 
-const onMouseDown = () => console.log('Mouse down Event');
+// const onMouseDown = () => console.log('Mouse down Event');
 
-const onMouseUp = () => console.log('Mouse Up Event');
+// const onMouseUp = () => console.log('Mouse Up Event');
 
 
-// Event Listeners for mouse events
-logo.addEventListener('click', onClick);
-logo.addEventListener('dblclick', onDoubleClick);
-logo.addEventListener('contextmenu', onRightClick);
-logo.addEventListener('mousedown', onMouseDown);
-logo.addEventListener('mouseup', onMouseUp);
+// // Event Listeners for mouse events
+// logo.addEventListener('click', onClick);
+// logo.addEventListener('dblclick', onDoubleClick);
+// logo.addEventListener('contextmenu', onRightClick);
+// logo.addEventListener('mousedown', onMouseDown);
+// logo.addEventListener('mouseup', onMouseUp);
+
+// const inputItem = document.getElementById('item-input');
+// const priorityInput = document.getElementById('priority-input');
+// const checkbox = document.getElementById('checkbox');
+// const heading = document.querySelector('h1');
+
+// function onInput(e) {
+//     // console.log(e.target.value);
+//     heading.textContent = e.target.value;
+// }
+
+// function onChecked(e) {
+//     console.log(e.target.checked);
+// }
+// function onFocus(e) {
+//     console.log('Input is Focused');
+//     inputItem.style.outlineStyle = 'solid';
+//     inputItem.style.outlineColor = 'lightblue';
+//     inputItem.style.outlineWidth = '5px';
+// }
+// function onBlur(e) {
+//     console.log('Input is not Focused');
+//     inputItem.style.outlineStyle = 'none';
+// }
+
+// inputItem.addEventListener('input', onInput);
+// priorityInput.addEventListener('change', onInput);
+// checkbox.addEventListener('input', onChecked);
+// inputItem.addEventListener('focus', onFocus);
+// inputItem.addEventListener('blur', onBlur);
+
+
+// const form = document.getElementById('item-form');
+
+
+// function onSubmit(e) {
+//     e.preventDefault();
+    
+//     const item = document.getElementById('item-input').value;
+//     const priority = document.getElementById('priority-input').value;
+
+//     console.log(item, priority);
+// }
+
+// // form.addEventListener('submit', onSubmit);
+
+// function onSubmit2(e) {
+//     e.preventDefault();
+     
+//     const formData = new FormData(form);
+
+//     const item = formData.get('item');
+//     const priority = formData.get('priority');
+
+//     console.log(item, priority);
+// }
+
+// form.addEventListener('submit', onSubmit2);
+
+// const removeBtn = document.querySelectorAll('.remove-item');
+
+// removeBtn.forEach((item) => {
+//     item.addEventListener('click', (e) => {
+//         e.target.closest('li').remove();
+//     });
+// });
+
+
+// localStorage.setItem('name', 'Ali');
+// console.log(localStorage.getItem('name'));
+
+// document.cookie = 'name=John';
+// document.cookie = 'age=30';
+
+// sessionStorage.setItem('name', 'Ali');
