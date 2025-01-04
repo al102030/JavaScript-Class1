@@ -279,13 +279,13 @@
 
 // form.addEventListener('submit', onSubmit2);
 
-// const removeBtn = document.querySelectorAll('.remove-item');
+const removeBtn = document.querySelectorAll('.remove-item');
 
-// removeBtn.forEach((item) => {
-//     item.addEventListener('click', (e) => {
-//         e.target.closest('li').remove();
-//     });
-// });
+removeBtn.forEach((item) => {
+    item.addEventListener('click', (e) => {
+        e.target.closest('li').remove();
+    });
+});
 
 
 // localStorage.setItem('name', 'Ali');
